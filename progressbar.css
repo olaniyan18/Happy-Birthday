@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: opacity 7s ease-in-out;
+    opacity: 1;
+  }
+  
+  body.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+  } 
+
+.container {
+    width: 400px;
+}
+
+.progress{
+    padding: 4px;
+    background: white;
+    border-radius: 30px;
+
+}
+
+.progress-bar{
+    height: 15px;
+    background-color: black;
+    border-radius: 30px;
+    animation: progressAnimation 7s;
+}
+
+@keyframes progressAnimation {
+    0% { width: 0%;}
+    25% {width: 25%;}
+    50% { width: 50%}
+    80% { width: 85%; }
+    100% { width: 100%;}
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .container {
+        width: 200px;
+    }
+}
+
+
+
+/* birthday page */
+.typewriter {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    white-space: pre-wrap;
+    line-height: 2;
+    font-family: monospace;
+    overflow: hidden;
+}
