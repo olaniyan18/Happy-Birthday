@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: monospace;
-    background: url("5137974.jpg");
+    background: url("v789-kul-29.jpg");
 }
 
 body.fade-out {
@@ -71,6 +71,10 @@ body.fade-in{
 
 
 @media only screen and (max-width: 600px)  {
+
+    body{
+        background: url("v789-kul-32.jpg");
+    }
     .message {
         width: 300px;
     }
