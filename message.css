@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: monospace;
+    background: url("5137974.jpg");
 }
 
 body.fade-out {
@@ -19,12 +20,13 @@ body.fade-in{
 
 .message {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     width: 600px;
     height: auto;
     padding: 20px;
     text-align: justify;
+    color: #C0C0C0;
     
 }
 

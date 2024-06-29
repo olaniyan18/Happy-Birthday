@@ -6,6 +6,7 @@ body {
     margin: 0;
     transition: opacity 7s ease-in-out;
     opacity: 1;
+    background-color: black;
   }
   
   body.fade-out {
@@ -19,14 +20,14 @@ body {
 
 .progress{
     padding: 4px;
-    background: white;
+    background: black;
     border-radius: 30px;
 
 }
 
 .progress-bar{
     height: 15px;
-    background-color: black;
+    background-color: white;
     border-radius: 30px;
     animation: progressAnimation 7s;
 }
@@ -61,5 +62,6 @@ body {
     line-height: 2;
     font-family: monospace;
     overflow: hidden;
+    color: #C0C0C0;
 }
 
