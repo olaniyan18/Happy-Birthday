@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:url("picture.jpg");
+  }
+
+h1{
+    text-transform: uppercase;
+    font-family: monospace;
+    
+}
+
+
+@media only screen and (max-width: 600px)  {
+
+    
+    body{
+        background: url("picturebibi.jpg");
+    }
+}

@@ -2,7 +2,10 @@ body {
     display: flex;
     justify-content: center;
     font-family: monospace;
-    background: url("v789-kul-29.jpg");
+    background: url("picture.jpg");
+    margin: 0;
+    padding: 0;
+    /* align-items: center; */
 }
 
 body.fade-out {
@@ -20,13 +23,13 @@ body.fade-in{
 
 .message {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     width: 600px;
     height: auto;
     padding: 20px;
     text-align: justify;
-    color: #C0C0C0;
+    color: black;
     
 }
 
@@ -37,7 +40,7 @@ body.fade-in{
 
 .next {
     float: right;
-    margin-left: 450px;
+    margin-left: 510px;
     width: auto;
     height: auto;
     border-radius: 5px;
@@ -48,7 +51,7 @@ body.fade-in{
     padding: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 45px;
+    margin-top: 50px;
     border: 0;
 }
 
@@ -64,27 +67,33 @@ body.fade-in{
     padding: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 47px;
+    margin-top: -35px;
     border: 0;
 }
+
 
 
 
 @media only screen and (max-width: 600px)  {
 
     body{
-        background: url("v789-kul-32.jpg");
+        background: url("picturebibi.jpg");
     }
     .message {
         width: 300px;
+        font-size: 15px;
     }
 
     .next {
-        margin-left: 200px;
-        margin-top: 10px;
+        margin-left: 225px;
+        margin-top: 30px;
     }
 
     .back{
         margin-top: -37px;
+    }
+
+    h1{
+        font-size: 15px;
     }
 }
